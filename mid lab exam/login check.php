@@ -24,16 +24,7 @@
                     $_SESSION['email']=$user[3];
                     $_SESSION['gender']=$user[4];
                     $_SESSION['dob']=$user[5];
-                    $_SESSION['role']=$user[6];
-                    $_SESSION['flag'] = "true";
-
-            
-                    
-                    
         
-
-
-                    
                     {
                         header('location: projectmanagement.php');
                         exit;
